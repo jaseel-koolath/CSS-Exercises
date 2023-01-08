@@ -1,0 +1,32 @@
+.imageRow {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  max-width: 90%;
+  height: 90vh;
+}
+
+.container {
+  flex: 0.5;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  position: relative;
+}
+.active.container > h3 {
+  display: block;
+}
+.container > h3 {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  text-align: left;
+  color: white;
+  padding-left: 2rem;
+}
+
+.active {
+  flex: 5;
+}
